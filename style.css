@@ -1,0 +1,60 @@
+/*all pages*/
+
+@font-face {
+    font-family: orchidee;
+    src: url(orchidee/ORCHM___.TTF);
+}
+
+body {
+	background-image: url(images/cover.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	color: white;
+	font-family: orchidee;
+	padding:0px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+a {
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #20FF4C;
+	text-decoration: overline;
+}
+
+#navi a {
+	display: inline-block;
+	text-align: right;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+#title {
+	font-size: 40px;
+	margin-top: 15px;
+}
+
+/*Homepage*/
+
+.flexslider img {
+	width:850px;
+	height:490px;
+}
+
+#contact {
+	background: rgba(18, 42, 11, .5);
+	text-align: center; 
+}
+
+
+/*Menu Page*/
+
+#menu {
+	background: rgba(18, 42, 11, .5);
+}

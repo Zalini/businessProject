@@ -1,0 +1,93 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title>Matcha Tea House</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="FlexSlider/jquery.flexslider.js"></script>
+</head>
+
+
+<body>
+<h1 id="title">Matcha Tea House</h1>
+<div id="navi">
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<a href="menu.html"><li>Menu</li></a>
+			<a href="about.html"><li>About</li></a>
+			<a href="press.html"><li>Press</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+		</ul>
+</div>
+
+
+<div class="flexslider">
+	<ul class="slides">
+		<li><img src ="images/matcha.jpg"/></li>
+		<li><img src ="images/t1.jpg"/></li>
+		<li><img src ="images/cups.jpg"/></li>
+		<li><img src ="images/teacake.jpg"/></li>
+		<li><img src ="images/creature.jpg"/></li>
+	</ul>
+</div>
+
+<div id="contact">
+ <h2>Location</h2>
+ <p>1234 Main St</p>
+ <p>New York, NY 10003</p>
+ 	<br>
+ <h2>Hours</h2>
+ <p>Monday to Thursday: 9AM - 10PM</p>
+ <p>Fridays and Saturdays: Noon to 11PM</p>
+ <p>Sundays: Noon to 10PM</p>
+ 
+
+</div>
+
+
+
+<script>
+
+
+$(document).ready(function(){
+  $(".flexslider").flexslider({
+    animation: "slide",
+    slideshowSpeed: 4000
+
+
+  });
+});
+
+/*	$(document).ready(function(){
+		$("#pic1").animate({left:100px}).hide();
+
+
+//.fadeOut(4000)
+		var sc = $(".slider img").length();
+		var count = 4;
+
+
+	setInterval(function(){
+		$(".slider #" + count).show(6000).fadeOut(4000).animate({right})
+
+	}, 500);
+
+	if(count == sc){
+		count=1;
+	}else{
+		count=count+1;
+		}
+	}
+
+	}
+
+
+
+	});
+*/
+
+
+</script>
+
+</body>
+</html>
