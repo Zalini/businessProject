@@ -8,18 +8,92 @@
 
 
 <body>
-<h1>Matcha Tea House</h1>
+<h1 id="title">Matcha Tea House</h1>
 <div id="navi">
 		<ul>
 			<a href="index.html"><li>Home</li></a>
 			<a href="menu.html"><li>Menu</li></a>
 			<a href="about.html"><li>About</li></a>
 			<a href="press.html"><li>Press</li></a>
-			<a href="contact.html"><li>Contact</li></a>
 		</ul>
 </div>
 
 
+<div id="social">
+	<div id="one">
+		<a href="http://www.facebook.com"><img src="images/fbb.png"></a>
+	</div>
+	<div id="two">
+		<a href="http://www.twitter.com"><img src="images/Twit.png"></a>
+	</div>
+	<div id="three">
+		<a href="http://www.instagram.com"><img src="images/gram.png"></a>
+	</div>
+	<div id="four">
+		<a href="http://www.Pinterest.com"><img src="images/Pinn.png"></a>
+	</div>
+</div>
+
+
+<div class="press">
+	<a href="http://www.villagevoice.com/restaurants/my-5-favorite-tea-houses-6526937"><img src="images/voice.jpg"/></a>
+	<br>
+
+	<br>
+	<a href="http://www.timeout.com/newyork/restaurants/best-teahouses-in-new-york-city"><img src="images/time.jpg"></a>
+</div>
+
+
+
+<div id="lightbox"> 
+	<div id="popup">
+
+	<div id="close"><input type="button">Click to close</div>
+		<h1>Join our mailing list for tea-riffic news!</h1>
+			<form>
+				<table class="table">
+					<tr>
+					<td>Name:</td>
+					<td><input type="text"></td>
+				</tr>
+
+				<tr>
+					<td>Email:</td>
+					<td><input type="text"></td>
+				</tr>
+
+				<td>
+				<input type="button" value="Submit"/>
+				</td>
+
+			</table>
+		</form>
+
+	</div>
+</div>
+
+</div>
+
+
+
+<div id="footer">
+<p>Matcha Tea House 2015 &copy; </p>
+</div>
+
+
+<script>
+	$(document).ready(function(){
+		$(this).mouseover(function(){
+			$("#lightbox, #close, #popup,.table").show();
+		});
+
+	/*	$("close").click(function()
+			("#lightbox, #close, #popup,.table").hide()
+	});
+*/
+
+	});
+</script>
 
 
 

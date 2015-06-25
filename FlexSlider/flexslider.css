@@ -109,6 +109,7 @@ html[xmlns] .flexslider .slides {
   margin-right: 5px;
 }
 .flex-direction-nav {
+  display: none;
   *height: 0;
 }
 .flex-direction-nav a {
@@ -194,6 +195,7 @@ html[xmlns] .flexslider .slides {
   content: '\f003';
 }
 .flex-control-nav {
+  display: none;
   width: 100%;
   position: absolute;
   bottom: -40px;
@@ -259,6 +261,15 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
+
+.flex-direction-nav {
+  display:none !important;
+}
+
+.flex-control-nav {
+  display:none !important;
+}
+
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
@@ -272,3 +283,12 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+
+.flex-direction-nav {
+  display:none !important;
+}
+
+.flex-control-nav {
+  display:none !important;
+}
+
