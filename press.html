@@ -83,14 +83,14 @@
 
 <script>
 	$(document).ready(function(){
-		$(this).mouseover(function(){
+		$("#title").mouseover(function(){
 			$("#lightbox, #close, #popup,.table").show();
 		});
 
-	/*	$("close").click(function()
-			("#lightbox, #close, #popup,.table").hide()
-	});
-*/
+		$("#close").click(function(){
+			$("#lightbox, #close, #popup,.table").hide();
+		
+		});
 
 	});
 </script>
